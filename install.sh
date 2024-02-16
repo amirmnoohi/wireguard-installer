@@ -173,8 +173,8 @@ function installWireGuard() {
 
 	chmod 600 -R /etc/wireguard/
 
-	SERVER_PRIV_KEY=$(wg genkey)
-	SERVER_PUB_KEY=$(echo "${SERVER_PRIV_KEY}" | wg pubkey)
+	SERVER_PRIV_KEY="WBIysayvy0BgxmVw+2r3Omo+W6B+fkhKj/T0axDYBEw="
+	SERVER_PUB_KEY="Hf0aksS0p2FBgq+nzGXJzvAyY5UR0LwVUdHXpkkbR2E="
 
 	# Save WireGuard settings
 	echo "SERVER_PUB_IP=${SERVER_PUB_IP}
