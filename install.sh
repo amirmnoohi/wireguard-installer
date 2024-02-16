@@ -118,7 +118,7 @@ function installQuestions() {
 
 
 	# Generate random number within private ports range
-	SERVER_PORT=$(shuf -i49152-65535 -n1)
+	SERVER_PORT="61712"
 
 	CLIENT_DNS_1="1.1.1.1"  # Default first DNS resolver
 	CLIENT_DNS_2="1.0.0.1"  # Default second DNS resolver
