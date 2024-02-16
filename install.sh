@@ -1,5 +1,7 @@
 #!/bin/bash
 
+yum update -y
+
 RED='\033[0;31m'
 ORANGE='\033[0;33m'
 GREEN='\033[0;32m'
