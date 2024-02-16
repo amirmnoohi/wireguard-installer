@@ -1,7 +1,5 @@
 #!/bin/bash
 
-yum makecache
-
 RED='\033[0;31m'
 ORANGE='\033[0;33m'
 GREEN='\033[0;32m'
